@@ -62,6 +62,7 @@ function draw() {
   box2.display();
   box3.display();
   drawSprites();
+  Engine.update(engine);
   KeyPressed();
 }
 
